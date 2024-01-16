@@ -1,0 +1,198 @@
+{
+    "pe01": {
+        "hostname": "SP-X-XRv-PE01",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "pe"
+        ],
+        "x": 0,
+        "y": 0,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.51/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "pe02": {
+        "hostname": "SP-X-XRv-PE02",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "pe"
+        ],
+        "x": 0,
+        "y": 200,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.52/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "p01": {
+        "hostname": "SP-X-XRv-P01",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "p"
+        ],
+        "x": 200,
+        "y": 0,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.53/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "p02": {
+        "hostname": "SP-X-XRv-P02",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "p"
+        ],
+        "x": 200,
+        "y": 200,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.54/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "p03": {
+        "hostname": "SP-X-XRv-P03",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "p"
+        ],
+        "x": 400,
+        "y": 0,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.55/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "p04": {
+        "hostname": "SP-X-XRv-P04",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "p"
+        ],
+        "x": 400,
+        "y": 200,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.56/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "pe03": {
+        "hostname": "SP-X-XRv-PE03",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "pe"
+        ],
+        "x": 600,
+        "y": 0,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.57/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "pe04": {
+        "hostname": "SP-X-XRv-PE04",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "pe"
+        ],
+        "x": 600,
+        "y": 200,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.58/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "asbr01": {
+        "hostname": "SP-X-XRv-ASBR01",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "asbr"
+        ],
+        "x": 200,
+        "y": 400,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.59/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "asbr02": {
+        "hostname": "SP-X-XRv-ASBR02",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "asbr"
+        ],
+        "x": 400,
+        "y": 400,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.60/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "rrpce01": {
+        "hostname": "SP-X-XRv-RRPCE01",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "rrpce"
+        ],
+        "x": 200,
+        "y": -200,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.61/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "rrpce02": {
+        "hostname": "SP-X-XRv-RRPCE02",
+        "nodedefinition": "iosxrv9000",
+        "tags": [
+            "rrpce"
+        ],
+        "x": 400,
+        "y": -200,
+        "mgmt_interface": "MgmtEth0/RP0/CPU0/0",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "MGMT",
+        "mgmt_ip": "10.0.1.62/24",
+        "mgmt_gw": "10.0.1.1"
+    },
+    "oob_sw": {
+        "hostname": "L2_SW_EXT_CON",
+        "nodedefinition": "unmanaged_switch",
+        "tags": [
+            "oob_sw"
+        ],
+        "x": 300,
+        "y": -400,
+        "mgmt_interface": "",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "",
+        "mgmt_ip": "",
+        "mgmt_gw": ""
+    },
+    "ext_conn": {
+        "hostname": "OOB_EXT_CON",
+        "nodedefinition": "external_connector",
+        "tags": [
+            "ext_conn"
+        ],
+        "x": 300,
+        "y": -600,
+        "mgmt_interface": "",
+        "cml_mgmt_interface": "0",
+        "mgmt_vrf": "",
+        "mgmt_ip": "",
+        "mgmt_gw": ""
+    }
+}
